@@ -499,33 +499,33 @@ main.monyDonation {
 }
 
 
-Opinion .card {
-  width: 600px;
+.Opinion .card {
+  width: 480px;
   margin: auto;
   /* border: 4px solid #25717b; */
   border-radius: 0px;
 
 }
 .Opinion .card p{
-  font-size: 30px ;
+  font-size: 20px ;
 
 }
 .Opinion .card i {
   display: block;
-  font-size: 40px;
+  font-size: 25px;
   color: var(--mainColor);
   font-weight: bold;
   padding: 10px 20px;
   background-color: white;
   box-shadow: 2px 1px 7px #bdbdbd;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 25px;
 }
 .Opinion .card .img {
   width: 80px;
   height: 80px;
-  margin: 30px 15px 10px 0;
+  margin: 10px 15px 0px 0;
   background-color: #25717b;
   border-radius: 50%;
 }
@@ -565,19 +565,19 @@ Opinion .card {
   font-size: 32px;
 }
 .Opinion .right {
-  /* margin: 48px; */
   margin: auto;
-  width: 38%;
-  height: 45vh;
-  /* height: 800px; */
-  padding-left: 120px;
+  
+ 
+  padding-left: 100px;
 }
 
 .Opinion .right .imgbox {
-  width: 130%;
-  height: 80%;
+  height: 38vh;
+  width: 85%;
   background-color: var(--mainColor);
+  margin-bottom: 110px;
 }
 .Opinion .right .imgbox img {
+  height: 110%;
   transform: translate(-15%, 15%);
 }
