@@ -178,7 +178,7 @@ h2 {
   /* margin-left: 45px; */
   /* padding-left: 20px; */
   /* border-left: 2px solid black; */
-  font-size: 23px;
+  font-size: 30px;
   text-align: justify;
   position: relative;
   padding-left: 90px;
@@ -190,7 +190,7 @@ h2 {
   top: 5%;
   left: 11.5%;
   width: 3px;
-  height: 250px;
+  height: 300px;
   background-color: var(--blackColor);
 }
 
@@ -236,8 +236,8 @@ img {
   padding: 38px 0px 30px 0px;
 }
 .cardService {
-  height: 260px;
-  width: 220px;
+  height: 310px;
+  width: 280px;
   padding: 20px;
   margin: auto;
   text-align: center;
@@ -246,7 +246,7 @@ img {
 }
 .textCard {
   margin-top: 22px;
-  font-size: 18px;
+  font-size: 22px;
   /* text-align: justify; */
 }
 .Btnservice {
@@ -264,8 +264,12 @@ img {
 }
 .card {
   margin: auto;
-  width: 220px;
+  width: 280px;
   border-radius: 12%;
+}
+
+h6{
+font-size: 25px;
 }
 
 ::-webkit-scrollbar {
@@ -355,6 +359,10 @@ img {
 .textdown{
   position: relative;
 }
+
+h4{
+  font-size: 28px;
+}
 .down .textdown::before {
   content: "";
   position: absolute;
@@ -386,7 +394,7 @@ img {
   text-align: justify;
 }
 .form{
-  min-height: 75vh;
+  min-height: 70vh;
   background-color:  #25717ba2;;
   border-radius: 35px;
   padding: 35px 55px 35px 30px; 
@@ -404,14 +412,14 @@ img {
 }
 
 .Formss .box{
-  width: 580px;
+  width: 540px;
   border-radius: 35px;
   z-index: 0;
+  height: 360px;
   /* height: 600px; */
 }
 .Formss .box img{
   border-radius: 35px;
-
   /* height: 600px; */
 }
 
@@ -573,7 +581,7 @@ main.CE1 {
 }
 .Opinion .carousel .btnone {
   position: absolute;
-  top: 95%;
+  top: 100%;
   left: 17%;
   opacity: 1;
   box-shadow: 2px 1px 7px #9c9c9c;
@@ -589,7 +597,7 @@ main.CE1 {
 }
 .Opinion .carousel .btntwo {
   position: absolute;
-  top: 95%;
+  top: 100%;
   right: 62%;
   opacity: 1;
   box-shadow: 2px 1px 7px #bdbdbd;
@@ -615,7 +623,8 @@ main.CE1 {
   margin-bottom: 110px;
 }
 .Opinion .right .imgbox img {
-  height: 110%;
+  height: 310px;
+  width: 450px;
   transform: translate(-15%, 15%);
 }
 
