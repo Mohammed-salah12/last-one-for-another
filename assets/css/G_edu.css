@@ -25,7 +25,7 @@ background-color: #eee;
     background-color: #2C4648;
     height: 6px;
 }.content{
-    padding: 0 345px 0 345px;
+    padding:80px 200px 0 200px;
 }.title1{
     color: #43595B;
     font-size: 3em;
@@ -76,8 +76,8 @@ background-color: #eee;
     flex-wrap: wrap;
     justify-content: center;
 }.card {
-    width: 300px;
-    height: 360px;
+    width: 300px !important;
+    height: 360px !important;
     background-color: #FFFFFF;
     border-radius: 29px;
     display: flex;

@@ -473,7 +473,43 @@ main.monyDonation {
   background-size: cover;
 
   /* opacity: 0.95; */
-}.subpicmidecal{
+}
+
+main.health1 {
+  background-image: url(/assets/images/HealthGifts.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
+main.edu1 {
+  background-image: url(/assets/images/edcgift.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
+main.disabled_ppl1 {
+  background-image: url(/assets/images/DisabledPPLhero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
+main.CE1 {
+  background-image: url(/assets/images/CEhero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* opacity: 0.95; */
+}
+
+
+.subpicmidecal{
   height:500px ;
 
 }
