@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css" />
+
+    <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/about.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,9 +15,62 @@
     <title>about us</title>
 </head>
 <body>
-    <section class="hero">
-        <div class="heroContent">About Us</div>
-    </section>
+    <main class="midecal aboutus1">
+        <div class="MAIN HeroClothes">
+            <!-- Start nav -->
+            <nav class="navbar navbar-expand-lg   " id="navbar-example2">
+                <div class="container">
+                    <a class="navbar-brand" href="#">One For Another</a>
+                    <button class="navbar-toggler order-last" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="bi bi-grid text-dark"></i>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse nav ms-lg-auto flex-grow-0 ms-3" id="navbarSupportedContent">
+                        <a class="nav-link active" aria-current="page" href="/front/index.html">HOME</a>
+                        <a class="nav-link" href="/fronts/about.html">About Us </a>
+                        <a class="nav-link pe-0 " href="#scrollspyHeading3">
+                            
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Services<i class="fa-sharp fa-solid fa-caret-down ms-3"></i></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="#home">Money Donation</a>
+                                  <a href="fronts/clothesDonation.html">Clothes Donation</a>
+                                  <a href="midecalDonation.html">Medical Donation</a>
+                                  <a href="#contact">Gifts</a>
+                                </div>
+                              </div>
+
+                                
+                        </a>
+                        <a class="nav-link" href="#scrollspyHeading3">Initiatives</a>
+
+                        <a class="nav-link" href="#scrollspyHeading4">Contact Us</a>
+                    </div>
+
+                    <!-- <div class=" nav end ms-lg-auto flex-grow-0 ms-2 ms-md-5" id="navbarSupportedContent">
+                <a class="nav-link  " href="#"><i class="fa-regular fa-magnifying-glass search"></i></a>
+                <a class="nav-link  " href="#"><i class="fa-regular fa-heart"></i></a>
+                <a class="nav-link " href="#"><i class="fa-regular fa-cart-shopping"></i></a>
+              </div> -->
+
+
+                </div>
+
+            </nav>
+            <!-- End nav -->
+
+            <!-- Start Hero -->
+            <div class="hero ">
+                <h1 class="display-3">Medical Donation</h1>
+                <p class="mb-4">"Share your treasure of knowledge and save lives"</p>
+                <button type="button" class="btn mt-3 BtnMain">Donate</button>
+
+            </div>
+            <!-- End Hero -->
+        </div>
+    </main>
     <section class="bodyAbout">
         <div class="AllContent container-fluid">
           <div class="firstContent row row-cols-sm-1 row-cols-lg-2">
@@ -66,7 +122,11 @@
         </div>
         </div>
     </section>
+   
+    
     <script src="../assets/js/about.js"></script>
-    <script src="/bootstrap/bootstrap5.bundle.min.js"></script>
+    <script src="/bootstrap/bootstrap5.bundle.min.js"></script> 
+    <script src="../assets/js/main.js"></script>
+
 </body>
 </html>
