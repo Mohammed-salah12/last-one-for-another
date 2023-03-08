@@ -54,7 +54,7 @@ header {
     background-color: #2C4648;
     height: 6px;
 }.content{
-    padding:0 200px 0 200px;
+    padding:80px 200px 0 200px;
 }.title1{
     color: #43595B;
     font-size: 3em;
@@ -104,8 +104,8 @@ header {
     flex-direction: row;
     gap: 2em;
 }.card {
-    width: 300px;
-    height: 360px;
+    height: 358px;
+    width: 294px;
     background-color: #FFFFFF;
     border-radius: 29px;
     display: flex;
