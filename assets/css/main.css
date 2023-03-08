@@ -479,12 +479,19 @@ main.monyDonation {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+}
   /* opacity: 0.95; */
-}.subpicmidecal{
+/* }.subpicmidecal{
   height:500px ;
 
+} */
+
+
+/*  */
+.Formss.medical {
+  min-height: 50vh ;
 }
+/*  */
 .boredrwhiete{
   background-color: #fff;}
 
