@@ -1,7 +1,7 @@
 body {
 margin: 0;
 outline: none;
-min-height: 3000px;
+min-height: 1500px !important;
 font-family: 'inter';
 background-color: #eee;
 }
@@ -122,4 +122,8 @@ background-color: #eee;
 .Price {
     margin: -30px 120px 0px -25px;
     color: #43595B;
+}
+
+footer{
+    margin-top: 100px;
 }
