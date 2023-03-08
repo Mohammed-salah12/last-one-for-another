@@ -495,8 +495,9 @@ main.monyDonation {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+}
   /* opacity: 0.95; */
+<<<<<<< HEAD
 }
 
 main.health1 {
@@ -533,9 +534,19 @@ main.CE1 {
 }
 
 .subpicmidecal{
+=======
+/* }.subpicmidecal{
+>>>>>>> 8b2e63b67d7f3977f341a9e61338dc745b2fb771
   height:500px ;
 
+} */
+
+
+/*  */
+.Formss.medical {
+  min-height: 50vh ;
 }
+/*  */
 .boredrwhiete{
   background-color: #fff;}
 
