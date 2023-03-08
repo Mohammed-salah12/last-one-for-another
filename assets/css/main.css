@@ -212,8 +212,8 @@ h2 {
   padding-left: 60px;
 }
 img {
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
 }
 .box1 {
   width: 200px;
@@ -537,8 +537,8 @@ main.monyDonation {
 }
 .Opinion .carousel .btnone {
   position: absolute;
-  top: 105%;
-  left: 10%;
+  top: 95%;
+  left: 17%;
   opacity: 1;
   box-shadow: 2px 1px 7px #9c9c9c;
   width: 48px;
@@ -549,11 +549,12 @@ main.monyDonation {
 .Opinion .carousel .btnone i {
   color: var(--mainColor);
   font-size: 32px;
+  
 }
 .Opinion .carousel .btntwo {
   position: absolute;
-  top: 105%;
-  right: 70%;
+  top: 95%;
+  right: 62%;
   opacity: 1;
   box-shadow: 2px 1px 7px #bdbdbd;
   width: 48px;
@@ -580,4 +581,11 @@ main.monyDonation {
 .Opinion .right .imgbox img {
   height: 110%;
   transform: translate(-15%, 15%);
+}
+
+.aboutus1{
+  background-image: url(../images/Rectangle\ 5714.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
