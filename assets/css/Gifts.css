@@ -1,7 +1,7 @@
 body {
 margin: 0;
 outline: none;
-min-height: 3000px;
+min-height: 1500px !important;
 font-family: 'inter';
 background-color: #eee;
 }
@@ -178,4 +178,8 @@ header {
 .BrowseBTN1 a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+footer{
+    margin-top: 100px;
 }
